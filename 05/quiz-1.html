@@ -7,6 +7,27 @@
 	<title>연습문제 1</title>
 </head>
 <body>
+	<script>
+		function sumMulti(a, b){
+			if(a == null){
+				a = parseInt(prompt("첫 번째 숫자"));
+			}
+			if(b == null){
+				b = parseInt(prompt("두 번째 숫자"));
+			}
+			
+			var result = 0;
+			
+			if(a == b){
+				result = a*b;
+			}else{
+				result = a+b;
+			}
+			console.log(result);
+		}
 
+		console.log(sumMulti(5, 10));
+		console.log(sumMulti(10, 10));
+		</script>
 </body>
 </html>
